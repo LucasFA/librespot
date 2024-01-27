@@ -51,7 +51,7 @@ version = "0.4.2"
 [dependencies]
 base64 = "0.13"
 env_logger =  {version = "0.9", default-features = false, features = ["termcolor","humantime","atty"]}
-futures-util = { version = "0.3", default_features = false }
+futures-util = { version = "0.3", default-features = false }
 getopts = "0.2.21"
 hex = "0.4"
 hyper = "0.14"
@@ -59,7 +59,7 @@ log = "0.4"
 rpassword = "6.0"
 thiserror = "1.0"
 tokio = { version = "1", features = ["rt", "rt-multi-thread", "macros", "signal", "sync", "process"] }
-url = "2.2"
+url = "2.5"
 sha-1 = "0.9"
 
 [features]
